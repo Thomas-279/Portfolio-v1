@@ -8,7 +8,11 @@ import './style.scss';
 const Header = () => (
   <div className="header">
     <div className="header__top">
-      <h1>Thomas Garraut</h1>
+      <nav className="header__top-nav">
+        <li className="header__top-nav-link">Projects</li>
+        <li className="header__top-nav-link">Projects</li>
+        <li className="header__top-nav-link">Contact</li>
+      </nav>
     </div>
   </div>
 );
