@@ -9,20 +9,22 @@ import './style.scss';
 const Header = () => (
   <div className="header">
     <div className="header__top">
-      <span className="header__top-logo">Thomas GARRAUT</span>
+      <span className="header__top-logo">
+        <Link to="/">Thomas GARRAUT</Link>
+      </span>
       <nav>
         <ul className="header__top-nav">
-          <Link>
+          <Link to="/">
             <li className="header__top-nav-link">
               Accueil
             </li>
           </Link>
-          <Link>
+          <Link to="/projects">
             <li className="header__top-nav-link">
               Projects
             </li>
           </Link>
-          <Link>
+          <Link to="/skills">
             <li className="header__top-nav-link">
               Expériences
             </li>
