@@ -24,7 +24,7 @@ const Header = () => (
           </Link>
           <Link>
             <li className="header__top-nav-link">
-              Contact
+              Expériences
             </li>
           </Link>
         </ul>

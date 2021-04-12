@@ -8,8 +8,10 @@ import './style.scss';
 const Home = () => (
   <div className="home">
     <div className="home__top">
-      <h1>Je suis dans home</h1>
-      <p>Voici ma présentation: </p>
+      <p>Bonjour, je suis</p>
+      <h1>Thomas GARRAUT</h1>
+      <p>Développeur web fullstack Javascript</p>
+      <p>Node.js / React - Redux</p>
     </div>
   </div>
 );

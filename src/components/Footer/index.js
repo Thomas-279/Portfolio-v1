@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 
 // == Import
 import './style.scss';
-import github from 'src/assets/images/github_logo.png';
-import linkedin from 'src/assets/images/linkedin_logo.png';
-import gmail from 'src/assets/images/gmail_logo.png';
+// import github from 'src/assets/images/github_logo.png';
+import linkedin from 'src/assets/images/linkedinsvg.svg';
+import email from 'src/assets/images/emailsvg.svg';
+import github from 'src/assets/images/githubsvg.svg';
 
 // == Composant
 const Footer = () => (
@@ -24,7 +25,7 @@ const Footer = () => (
       </li>
       <li className="footer__logo-list">
         <a href="mailto:thomas.garraut@gmail.com">
-          <img className="footer__logo-img" src={gmail} alt="gmail" />
+          <img className="footer__logo-img" src={email} alt="email" />
         </a>
       </li>
     </ul>
