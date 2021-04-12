@@ -6,6 +6,24 @@
   padding: 1em;
 }
 
+.header__top {
+  display: flex;
+}
+
+.header__top-logo {
+  text-align: left;
+  display: block;
+  margin: auto;
+}
+
+.header__top-nav {
+  float: right;
+  margin: auto;
+}
+
 .header__top-nav-link {
-  text-decoration: none;
+  border: 1px solid blue;
+  list-style: none;
+  display: table-cell;
+  padding: 1em;
 }

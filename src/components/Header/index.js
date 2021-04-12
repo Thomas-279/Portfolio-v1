@@ -1,5 +1,6 @@
 // == Import npm
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // == Import
 import './style.scss';
@@ -8,10 +9,25 @@ import './style.scss';
 const Header = () => (
   <div className="header">
     <div className="header__top">
-      <nav className="header__top-nav">
-        <li className="header__top-nav-link">Projects</li>
-        <li className="header__top-nav-link">Projects</li>
-        <li className="header__top-nav-link">Contact</li>
+      <span className="header__top-logo">Thomas GARRAUT</span>
+      <nav>
+        <ul className="header__top-nav">
+          <Link>
+            <li className="header__top-nav-link">
+              Accueil
+            </li>
+          </Link>
+          <Link>
+            <li className="header__top-nav-link">
+              Projects
+            </li>
+          </Link>
+          <Link>
+            <li className="header__top-nav-link">
+              Contact
+            </li>
+          </Link>
+        </ul>
       </nav>
     </div>
   </div>

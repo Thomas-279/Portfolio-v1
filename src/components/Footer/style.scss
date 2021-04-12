@@ -1,7 +1,22 @@
 .footer {
-  background-color: red;
+  border-top: 1px solid black;
   width: 100%;
   margin: auto;
   height: 10%;
   padding: 1em;
+  text-align: center;
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo-list {
+  list-style: none;
+  margin: auto;
+}
+
+.footer__logo-img {
+  height: 30%;
+  width: 30%;
 }
