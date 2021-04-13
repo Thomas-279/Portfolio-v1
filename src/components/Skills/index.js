@@ -64,27 +64,33 @@ const trainingsData = [
 
 // == Composant
 const Skills = () => (
-  <div className="skills-container">
-    {trainingsData.map((training) => (
-      <div className="trainings" key={training.id}>
-        <h2 className="trainings__title">{training.title}</h2>
-        <p className="trainings__content">{training.content}</p>
-        <p className="trainings__content2">{training.content2}</p>
-        <p className="trainings__date">{training.date}</p>
-      </div>
-    ))}
-    {skillsData.map((data) => (
-      <div className="skills" key={data.id}>
-        <h2 className="skills__title">{data.title}</h2>
-        <p className="skills__date">{data.date}</p>
-        <p className="skills__content">{data.content}</p>
-        <p className="skills__object">{data.object}</p>
-        <p className="skills__team">{data.team}</p>
-        <p className="skills__tasks">{data.tasks}</p>
-        <p className="skills__techno">{data.techno}</p>
-        <p className="skills__techno2">{data.techno2}</p>
-      </div>
-    ))}
+  <div className="container">
+    <div className="skills__container">
+      <p>Expériences</p>
+      {skillsData.map((data) => (
+        <div className="skills" key={data.id}>
+          <h2 className="skills__title">{data.title}</h2>
+          <p className="skills__date">{data.date}</p>
+          <p className="skills__content">{data.content}</p>
+          <p className="skills__object">{data.object}</p>
+          <p className="skills__team">{data.team}</p>
+          <p className="skills__tasks">{data.tasks}</p>
+          <p className="skills__techno">{data.techno}</p>
+          <p className="skills__techno2">{data.techno2}</p>
+        </div>
+      ))}
+    </div>
+    <div className="trainings__container">
+      <p>Diplomes et certifications</p>
+      {trainingsData.map((training) => (
+        <div className="trainings" key={training.id}>
+          <h2 className="trainings__title">{training.title}</h2>
+          <p className="trainings__content">{training.content}</p>
+          <p className="trainings__content2">{training.content2}</p>
+          <p className="trainings__date">{training.date}</p>
+        </div>
+      ))}
+    </div>
   </div>
 );
 

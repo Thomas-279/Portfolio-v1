@@ -1,20 +1,42 @@
 @use 'src/styles/vars' as v;
 
-.skills-container {
+.container {
   width: 100%;
   margin: auto;
   padding: 1em;
 }
 
-.skills {
-  background-color: v.$color-greyblue;
-  color: v.$color-white;
-  margin-bottom: 15px;
-  padding: 5px;
+.trainings__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
 }
 
 .trainings {
-  background-color: v.$color-lightgreen;
+  background-color: v.$color-darkgreen;
+  color: v.$color-white;
+  width: 70%;
   margin-bottom: 15px;
   padding: 5px;
+  box-shadow: 1px 1px 5px 1px #c9c9c9;
+  border-radius: 4px;
+}
+
+.skills__container {
+  background-color: v.$color-greyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+
+.skills {
+  background-color: v.$color-white;
+  width: 70%;
+  color: v.$color-greyblue;
+  margin-bottom: 15px;
+  padding: 5px;
+  box-shadow: 1px 1px 5px 1px #c9c9c9;
+  border-radius: 4px;
 }
