@@ -1,3 +1,5 @@
+@use 'src/styles/vars' as v;
+
 .skills-container {
   width: 100%;
   margin: auto;
@@ -5,13 +7,14 @@
 }
 
 .skills {
-  border: 1px solid black;
+  background-color: v.$color-greyblue;
+  color: v.$color-white;
   margin-bottom: 15px;
   padding: 5px;
 }
 
 .trainings {
-  border: 1px solid red;
+  background-color: v.$color-lightgreen;
   margin-bottom: 15px;
   padding: 5px;
 }

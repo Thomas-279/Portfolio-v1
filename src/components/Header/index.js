@@ -9,9 +9,9 @@ import './style.scss';
 const Header = () => (
   <div className="header">
     <div className="header__top">
-      <span className="header__top-logo">
-        <Link to="/">Thomas GARRAUT</Link>
-      </span>
+      {/* <span className="header__top-logo">
+        <Link to="/">TG</Link>
+      </span> */}
       <nav>
         <ul className="header__top-nav">
           <Link to="/">

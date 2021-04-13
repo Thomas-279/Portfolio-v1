@@ -1,8 +1,12 @@
 @use 'reset';
-@use 'vars';
+@use 'vars' as v;
 
 body {
   font-family: sans-serif;
+  background-color: v.$color-lightblue;
+  //background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3cpath d='M46 250L296 0L618.5 0L368.5 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M271.6 250L521.6 0L632.6 0L382.6 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M508.20000000000005 250L758.2 0L1058.2 0L808.2 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M725.8000000000001 250L975.8000000000001 0L1223.3000000000002 0L973.3000000000001 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M1416 250L1166 0L909.5 0L1159.5 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M1185.4 250L935.4000000000001 0L887.4000000000001 0L1137.4 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M925.8 250L675.8 0L363.79999999999995 0L613.8 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M726.1999999999999 250L476.19999999999993 0L357.69999999999993 0L607.6999999999999 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M1215.1749819509582 250L1440 25.17498195095814L1440 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M0 250L224.82501804904186 250L 0 25.17498195095814z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1013'%3e%3cstop stop-color='rgba(81%2c 96%2c 121%2c 0.25)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(81%2c 96%2c 121%2c 0.25)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1014'%3e%3cstop stop-color='rgba(81%2c 96%2c 121%2c 0.25)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(81%2c 96%2c 121%2c 0.25)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  //background-repeat: no-repeat;
+  //background-size: cover;
 }
 
 /* 
