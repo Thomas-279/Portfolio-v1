@@ -33,7 +33,6 @@ const skillsData = [
     title: 'Manager / Directeur-adjoint',
     date: 'Novembre 2005 - Juin 2015',
     content: 'McDonald’s ( Saint-Germain-en-laye - Yvelines )',
-    object: 'Pilotage de l’exploitation ( 2,2 m€ CA )',
     team: 'Management, développement et animation des équipes ( 30 salariés )',
     techno: 'Garant de l\'hygiène et respect du plan HACCP',
     techno2: 'Relation clientèle / fournisseurs',
@@ -81,7 +80,7 @@ const Skills = () => (
       ))}
     </div>
     <div className="trainings__container">
-      <p>Diplomes et certifications</p>
+      <p>Formations</p>
       {trainingsData.map((training) => (
         <div className="trainings" key={training.id}>
           <h2 className="trainings__title">{training.title}</h2>

@@ -26,7 +26,7 @@ const Header = () => (
           </Link>
           <Link to="/skills">
             <li className="header__top-nav-link">
-              Expériences
+              A propos
             </li>
           </Link>
         </ul>

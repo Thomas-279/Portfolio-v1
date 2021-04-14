@@ -19,7 +19,7 @@ const dataProjects = [
   },
   {
     id: 2,
-    title: 'Converter currencies',
+    title: 'Converter',
     content: 'React/SCSS',
     img: `${converter}`,
     slug: 'https://github.com/Thomas-279/Converter-React',
@@ -36,16 +36,16 @@ const dataProjects = [
 // == Composant
 const Projects = () => (
   <div className="projects-container">
-    <h2>Projets réalisés</h2>
+    <h2 className="projects__title">Projets réalisés</h2>
     <div className="projects">
       {dataProjects.map((data) => (
-        <div className="projects__details" key={data.id}>
-          <h3 className="projects__details-title">{data.title}</h3>
-          <Link to={{ pathname: `${data.slug}` }} target="_blank">
+        <Link to={{ pathname: `${data.slug}` }} target="_blank">
+          <div className="projects__details" key={data.id}>
             <img src={data.img} alt={data.title} className="projects__details-img" />
-          </Link>
-          <p className="projects__details-content">{data.content}</p>
-        </div>
+            <h4 className="projects__details-title">{data.title}</h4>
+            <span className="projects__details-content">{data.content}</span>
+          </div>
+        </Link>
       ))}
     </div>
   </div>
