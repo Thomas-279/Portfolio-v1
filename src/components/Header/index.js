@@ -7,7 +7,7 @@ import './style.scss';
 
 // == Composant
 const Header = () => (
-  <div className="header">
+  <header className="header">
     <div className="header__top">
       {/* <span className="header__top-logo">
         <Link to="/">TG</Link>
@@ -32,7 +32,7 @@ const Header = () => (
         </ul>
       </nav>
     </div>
-  </div>
+  </header>
 );
 
 // == Export

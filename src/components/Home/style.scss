@@ -1,13 +1,67 @@
-.home {
+@use 'src/styles/vars' as v;
+
+.home__container {
   width: 100%;
   margin: auto;
-  height: 80%;
-  padding: 1em;
-}
-
-.home__top {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+}
+
+// ici la premiere section
+.home__part {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__part-part {
+  margin-top: v.$gutter * 1;
+}
+
+.home__part-precontent {
+  margin-top: v.$gutter * 1;
+  margin-bottom: v.$gutter * 2;
+  font-size: v.$gutter * 1.5;
+  color: v.$color-darkblue;
+  letter-spacing: 0.05em;
+}
+
+.home__part-title {
+  margin-bottom: v.$gutter * 3;
+  font-size: v.$gutter * 2.5;
+  color: v.$color-darkblue;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+.home__part-subtitle,
+.home__part-content {
+  margin-bottom: v.$gutter * 1;
+  font-size: v.$gutter * 1.5;
+  color: v.$color-darkblue;
+  letter-spacing: 0.05em;
+}
+
+// ici la 2e section
+.home__part2 {
+  margin-top: v.$gutter * 2;
+  background-color: v.$color-greyblue;
+  color: v.$color-white;
+  // border-radius: v.$gutter * 1;
+  // box-shadow: 0 0.5rem 1rem #cbdef0;
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.home__part2-content {
+  max-width: 40%;
+}
+
+.profile-picture {
+  border-radius: 4px;
 }
