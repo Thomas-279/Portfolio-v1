@@ -10,7 +10,7 @@
 
 // ici la premiere section
 .home__part {
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +55,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .home__part2-content {
@@ -64,4 +64,9 @@
 
 .profile-picture {
   border-radius: 4px;
+}
+
+.home__part3 {
+  min-height: 50vh;
+  background-color: v.$color-lightblue;
 }

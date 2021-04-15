@@ -2,13 +2,17 @@
 
 .container {
   width: 100%;
+  margin: auto;
+}
+.skills__container {
   color: v.$color-darkblue;
+  background-color: v.$color-lightblue;
+  padding: v.$gutter * 3;
 }
 
-.skills__container-title,
-.trainings__container-title {
-  margin-top: v.$gutter * 3;
-  margin-bottom: v.$gutter * 3;
+.skills__container-title {
+  margin-top: v.$gutter * 2;
+  margin-bottom: v.$gutter * 2;
   font-size: v.$gutter * 2.5;
   color: v.$color-darkblue;
   text-transform: uppercase;
@@ -16,28 +20,66 @@
   letter-spacing: 0.15em;
 }
 
-.skills__container {
+.skills__container-cards {
   color: v.$color-darkblue;
-  background-color: v.$color-lightblue;
-  display: flex;
-  align-content: space-between;
-  align-items: center;
-  height: 50vh;
-  padding: v.$gutter * 3;
 }
 
 .skills {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  font-size: v.$gutter * 1.1;
+  line-height: v.$gutter * 1.3;
+  margin-bottom: v.$gutter * 2;
+  padding: v.$gutter * 2;
+  border-radius: v.$gutter * 1;
+  // background-color: v.$color-white;
+  // box-shadow: 0 0.5rem 1rem #cbdef0;
 }
 
 .trainings__container {
-  color: v.$color-white;
-  background-color: v.$color-darkgreen;
-  display: flex;
-  align-content: space-between;
-  align-items: center;
-  height: 50vh;
+  background-color: v.$color-greyblue;
+  min-height: 65vh;
   padding: v.$gutter * 3;
 }
 
+.trainings__container-title {
+  margin-top: v.$gutter * 2;
+  margin-bottom: v.$gutter * 2;
+  font-size: v.$gutter * 2.5;
+  color: v.$color-white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+.trainings__container-cards {
+  color: v.$color-white;
+}
+
 .trainings {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  font-size: v.$gutter * 1.1;
+  line-height: v.$gutter * 1.3;
+  margin-bottom: v.$gutter * 2;
+  padding: v.$gutter * 2;
+  // border-radius: v.$gutter * 1;
+  // background-color: v.$color-lightblue;
+  // box-shadow: 0 0.5rem 1rem v.$color-darkblue;
+}
+
+// css de l'intérieur des cartes
+
+.skills__title,
+.trainings__title {
+  font-weight: bold;
+  font-size: v.$gutter * 1.2;
+}
+
+.skills__date,
+.trainings__date {
+  margin-bottom: v.$gutter / 2;
+  font-style: italic;
 }

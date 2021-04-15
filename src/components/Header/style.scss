@@ -24,7 +24,7 @@
 }
 
 .header__top-nav-link {
-  color: v.$color-darkgreen;
+  color: v.$color-darkblue;
   border-radius: 4px;
   display: table-cell;
   position: relative;
@@ -42,7 +42,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: v.$color-darkgreen;
+    background: v.$color-darkblue;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }

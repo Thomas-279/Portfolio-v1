@@ -21,13 +21,30 @@ const Home = () => (
     {/* Partie 2 contactez moi */}
     <section className="home__part2">
       <div className="home__part2-content">
-        <p>Présentation ici: </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum turpis ac risus consequat sollicitudin. Nam nec ultricies dolor. Nulla facilisi. Nam imperdiet enim in tristique hendrerit. Suspendisse potenti. Nam eu scelerisque ex. Nam varius est nec bibendum tempus. Quisque sit amet finibus odio. Nam commodo feugiat aliquam. Pellentesque sed est nisi.
+        <p>Après une carrière en restauration, dont 5 en tant que directeur de restaurant,
+          j'ai pu acquérir de solides compétences en gestion d'entreprise,
+          en organisation et en management d'équipe.
+          Pour nouveau challenge, j'ai fais le choix d'un virage à 180° dans le développement
+          web et mobile.
+          Suite à une formation fullstack au language Javascript
+          de 3 mois au sein de l'école O'clock,
+          une spécialisation sur la librairie React d'un mois et
+          un projet en équipe sur 1 mois, de la rédaction du cahier des charges au déploiement.
+          Je suis désormais prêt pour me lancer dans cette nouvelle carrière et continuer
+          à apprendre chaque jour.
         </p>
       </div>
       <div className="home__part2-picture">
         <img src={profilePicture} alt="ThomasGarraut" className="profile-picture" />
+      </div>
+    </section>
+    <section className="home__part3">
+      <div className="contact__container">
+        <h3 className="contact__title">Contact</h3>
+        <Link>Vers Linkedin</Link>
+        <Link>Vers Github</Link>
+        <Link>Par email</Link>
+        <Link>Par téléphone</Link>
       </div>
     </section>
   </div>
