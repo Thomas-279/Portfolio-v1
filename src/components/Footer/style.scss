@@ -1,26 +1,12 @@
 @use 'src/styles/vars' as v;
 
 .footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   background-color: v.$color-white;
-  width: 100%;
-  margin: auto;
-  height: v.$gutter * 3.5;
+  width: v.$gutter * 3;
+  height: 100%;
+  left: 0;
   padding: 0.5em;
   text-align: center;
-}
-
-.footer__logo {
-  display: flex;
-}
-
-.footer__logo-list {
-  list-style: none;
-  margin: auto;
-}
-
-.footer__logo-img {
-  height: 80%;
-  width: 80%;
 }

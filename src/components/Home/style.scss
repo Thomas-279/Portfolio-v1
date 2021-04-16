@@ -1,9 +1,12 @@
 @use 'src/styles/vars' as v;
 
-.home__container {
+.home {
   width: 100%;
   margin: auto;
   height: 100vh;
+}
+
+.home__container {
   display: flex;
   flex-direction: column;
 }
@@ -55,7 +58,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-align: left;
   min-height: 50vh;
+  font-size: v.$gutter * 1.1;
+  line-height: v.$gutter * 1.3;
+  & p {
+    margin-bottom: v.$gutter;
+  }
 }
 
 .home__part2-content {
@@ -67,6 +76,27 @@
 }
 
 .home__part3 {
-  min-height: 50vh;
+  min-height: 30vh;
   background-color: v.$color-lightblue;
+}
+
+.contact__title {
+  margin-top: v.$gutter * 3;
+  margin-bottom: v.$gutter * 3;
+  font-size: v.$gutter * 2.5;
+  color: v.$color-darkblue;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+.link__container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.link__content {
+  width: v.$gutter * 3;
 }
