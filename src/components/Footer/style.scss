@@ -1,12 +1,22 @@
 @use 'src/styles/vars' as v;
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  background-color: v.$color-white;
-  width: v.$gutter * 3;
-  height: 100%;
-  left: 0;
-  padding: 0.5em;
-  text-align: center;
+.footer__title {
+  margin-top: v.$gutter * 3;
+  margin-bottom: v.$gutter * 3;
+  font-size: v.$gutter * 2.5;
+  color: v.$color-darkblue;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+.link__container {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: auto;
+}
+
+.link__content {
+  width: v.$gutter * 2.5;
 }
