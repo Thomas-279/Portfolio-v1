@@ -7,6 +7,7 @@ import Header from 'src/components/Header';
 import Home from 'src/components/Home';
 import Skills from 'src/components/Skills';
 import Projects from 'src/components/Projects';
+import Error from 'src/components/Error';
 
 import Footer from 'src/components/Footer';
 import './style.scss';
@@ -30,6 +31,9 @@ const App = () => {
         </Route>
         <Route path="/projects" exact>
           <Projects />
+        </Route>
+        <Route path="*">
+          <Error />
         </Route>
       </Switch>
       <Footer />

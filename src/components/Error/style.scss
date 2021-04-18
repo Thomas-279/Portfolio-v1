@@ -1,0 +1,18 @@
+@use 'src/styles/vars' as v;
+
+.error {
+  width: 100%;
+  margin: auto;
+  min-height: 70vh;
+  padding: v.$gutter;
+}
+
+.error__content {
+  margin-top: v.$gutter * 8;
+  margin-bottom: v.$gutter * 4;
+  font-size: v.$gutter * 2.5;
+  color: v.$color-darkblue;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}

@@ -16,7 +16,7 @@ const Footer = () => {
     const scrolled = document.documentElement.scrollTop;
     if (scrolled > 100) {
       setVisible(true);
-    } 
+    }
     else if (scrolled <= 100) {
       setVisible(false);
     }
