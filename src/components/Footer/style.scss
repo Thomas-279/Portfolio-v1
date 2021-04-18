@@ -15,15 +15,27 @@
   justify-content: space-around;
   width: 40%;
   margin: auto;
+  margin-bottom: v.$gutter * 2;
 }
 
 .link__content {
   width: v.$gutter * 2.5;
 }
 
+// Test bouton go to top
+.button-backtop {
+  color: v.$color-darkblue;
+  position: fixed;
+  right: v.$gutter;
+  bottom: v.$gutter;
+}
+
 // Change under 900px large
 @media (max-width: v.$breakpoint) {
   .footer__title {
     font-size: v.$gutter * 1.7;
+  }
+  .link__container {
+    width: 70%;
   }
 }

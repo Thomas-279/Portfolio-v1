@@ -1,5 +1,5 @@
 // == Import npm
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // == Import
@@ -12,24 +12,30 @@ import Footer from 'src/components/Footer';
 import './style.scss';
 
 // == Composant
-const App = () => (
-  <div className="app">
-    <Header />
-    {/* Suivant les urls */}
-    <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-      <Route path="/skills" exact>
-        <Skills />
-      </Route>
-      <Route path="/projects" exact>
-        <Projects />
-      </Route>
-    </Switch>
-    <Footer />
-  </div>
-);
+const App = () => {
+  useEffect(() => {
+    document.title = 'Thomas GARRAUT';
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div className="app">
+      <Header />
+      {/* Suivant les urls */}
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/skills" exact>
+          <Skills />
+        </Route>
+        <Route path="/projects" exact>
+          <Projects />
+        </Route>
+      </Switch>
+      <Footer />
+    </div>
+  );
+};
 
 // == Export
 export default App;
