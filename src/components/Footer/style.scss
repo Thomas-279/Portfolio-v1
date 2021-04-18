@@ -20,3 +20,10 @@
 .link__content {
   width: v.$gutter * 2.5;
 }
+
+// Change under 900px large
+@media (max-width: v.$breakpoint) {
+  .footer__title {
+    font-size: v.$gutter * 1.7;
+  }
+}

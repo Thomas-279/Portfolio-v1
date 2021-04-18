@@ -52,7 +52,8 @@
   }
 }
 
-@media (max-width: 900px) {
+// Change under 900px large
+@media (max-width: v.$breakpoint) {
   .header__top-nav {
     width: 100%;
   }

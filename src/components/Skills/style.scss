@@ -83,3 +83,20 @@
   margin-bottom: v.$gutter / 2;
   font-style: italic;
 }
+
+// Change under 900px large
+@media (max-width: v.$breakpoint) {
+  .skills,
+  .trainings {
+    width: 100%;
+    padding: v.$gutter * 1;
+  }
+  .skills__container-title,
+  .trainings__container-title {
+    font-size: v.$gutter * 1.7;
+  }
+  .skills__container,
+  .trainings__container {
+    padding: v.$gutter * 1;
+  }
+}
