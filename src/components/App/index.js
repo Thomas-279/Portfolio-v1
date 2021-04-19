@@ -23,18 +23,10 @@ const App = () => {
       <Header />
       {/* Suivant les urls */}
       <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/skills" exact>
-          <Skills />
-        </Route>
-        <Route path="/projects" exact>
-          <Projects />
-        </Route>
-        <Route path="*">
-          <Error />
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/skills" component={Skills} />
+        <Route exact path="/projects" component={Projects} />
+        <Route path="/*" component={Error} />
       </Switch>
       <Footer />
     </div>
