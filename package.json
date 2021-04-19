@@ -1,6 +1,6 @@
 {
   "name": "react-modele",
-  "homepage": "https://thomas-279.github.io/Portfolio-v1/",
+  "homepage": "https://thomas-279.github.io/Portfolio-v1",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
