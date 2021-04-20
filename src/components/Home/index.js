@@ -27,13 +27,13 @@ const Home = () => {
         {/* Partie 2 contactez moi */}
         <section className="home__part2">
           <div className="home__part2-content">
-            <p>Après une carrière en restauration, 
+            <p>Après une carrière en restauration,
               dont 5 années en tant que directeur de restaurant,
               j'ai pu acquérir de solides compétences en gestion d'entreprise,
               en organisation et en management d'équipe.
             </p>
-            <p>Pour nouveau challenge, j'ai fait le choix d'un virage à 180° dans le développement
-              web et mobile au cours de l'année 2020.
+            <p>Pour nouveau challenge, j'ai fait le choix d'un virage à 180°
+              dans le domaine du développement web et mobile au cours de l'année 2020.
             </p>
             <Link
               to={{ pathname: 'https://www.linkedin.com/in/thomas-garraut/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABS9U2YBgGJQx8VCfPht1Mynjo38caJyzdU,1635452955800)' }}
