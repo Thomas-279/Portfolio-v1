@@ -36,11 +36,11 @@ const Home = () => {
               dans le domaine du développement web et mobile au cours de l'année 2020.
             </p>
             <Link
-              to={{ pathname: 'https://www.linkedin.com/in/thomas-garraut/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABS9U2YBgGJQx8VCfPht1Mynjo38caJyzdU,1635452955800)' }}
+              to={{ pathname: 'https://drive.google.com/file/d/1adF0SBN7MUaLqs7w1WHidkNAyq2pFFMJ/view' }}
               target="_blank"
             >
               <button type="button" className="button type1">
-                Consulter mon CV sur Linkedin
+                Consulter mon CV
               </button>
             </Link>
           </div>
