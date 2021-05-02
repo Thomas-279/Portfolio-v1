@@ -35,14 +35,16 @@ const Home = () => {
             <p>Pour nouveau challenge, j'ai fait le choix d'un virage à 180°
               dans le domaine du développement web et mobile au cours de l'année 2020.
             </p>
-            <Link
-              to={{ pathname: 'https://drive.google.com/file/d/1adF0SBN7MUaLqs7w1WHidkNAyq2pFFMJ/view' }}
-              target="_blank"
-            >
-              <button type="button" className="button type1">
-                Consulter mon CV
-              </button>
-            </Link>
+            <div className="home__part2-link">
+              <Link
+                to={{ pathname: 'https://drive.google.com/file/d/1adF0SBN7MUaLqs7w1WHidkNAyq2pFFMJ/view' }}
+                target="_blank"
+              >
+                <button type="button" className="button type1">
+                  Consulter mon CV
+                </button>
+              </Link>
+            </div>
           </div>
           <div className="home__part2-picture">
             <img src={profilePicture} alt="ThomasGarraut" className="profile-picture" />

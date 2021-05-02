@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  // test affichage avec delais
+  //affichage avec delai
   opacity: 0;
   -webkit-animation: anim 0.5s linear forwards 0.5s;
 }
@@ -75,7 +75,7 @@
   transform: translate(-50%, -50%);
 }
 
-// Change under 900px large
+// Change under 960px large
 @media (max-width: v.$breakpoint) {
   .projects__title {
     font-size: v.$gutter * 1.7;
