@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom';
 // == Import
 import './style.scss';
 import profilePicture from 'src/assets/cv/small.jpg';
+import Resume from 'src/assets/cv/ThomasGARRAUT.pdf';
 
 // == Composant
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="home">
       <div className="home__container">
@@ -39,7 +41,8 @@ const Home = () => {
             </p>
             <div className="home__part2-link">
               <Link
-                to={{ pathname: 'https://drive.google.com/file/d/1adF0SBN7MUaLqs7w1WHidkNAyq2pFFMJ/view' }}
+                // to={{ pathname: 'https://drive.google.com/file/d/1adF0SBN7MUaLqs7w1WHidkNAyq2pFFMJ/view' }}
+                to={Resume}
                 target="_blank"
               >
                 <button type="button" className="button type1">
