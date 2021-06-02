@@ -21,6 +21,8 @@ const Home = () => {
             <h1 className="home__part-title">Thomas GARRAUT</h1>
             <h2 className="home__part-subtitle">Développeur web fullstack Javascript</h2>
             <p className="home__part-content">Node.js / React - Redux</p>
+            {/* test button */}
+            {/* <button data-tooltip="Hello World">Hover Me</button> */}
 
           </div>
         </section>
