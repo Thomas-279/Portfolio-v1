@@ -6,7 +6,7 @@ import yabonprono from 'src/assets/images/img-projects/yabonprono.png';
 export default [
   {
     id: 4,
-    title: 'Yabon-pronostiqueur',
+    title: 'Yabon-prono',
     content: 'React - Redux - Node/Express - PSQL',
     img: `${yabonprono}`,
     slug: 'http://yabon-prono.surge.sh/',
