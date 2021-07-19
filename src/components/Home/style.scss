@@ -162,3 +162,23 @@
 //   left: 50%;
 //   transform: translate(-50%, -100%);
 // }
+
+.typing-demo {
+  width: 21ch;
+  animation: typing 2s steps(21), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

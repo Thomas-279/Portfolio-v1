@@ -20,7 +20,7 @@ const Home = () => {
         <section className="home__part">
           <div className="home__part-part">
             <p className="home__part-precontent">Bonjour, je suis</p>
-            <h1 className="home__part-title">Thomas GARRAUT</h1>
+            <h1 className="home__part-title typing-demo">Thomas GARRAUT</h1>
             <h2 className="home__part-subtitle">Développeur web fullstack Javascript</h2>
             <p className="home__part-content">Node.js / React - Redux</p>
             {/* test button */}
