@@ -1,6 +1,16 @@
 export default [
   {
     id: 1,
+    title: 'Développeur Web',
+    date: 'Juin 2021 - Juillet 2021',
+    content: 'Indépendant',
+    object: 'Réalisation d\'un site vitrine pour un agent immobilier indépendant',
+    tasks: 'Déploiement via Heroku ( back-end ) + Cloudinary + Netlify ( Frond-end )',
+    techno: 'Back: Strapi + PostgreSQL',
+    techno2: 'Front: ReactJs + ReduxToolkit + TailwindUi',
+  },
+  {
+    id: 2,
     title: 'Développeur front-end',
     date: 'Février 2021 - Mars 2021',
     content: 'O’clock - Projet de fin de formation',
@@ -11,7 +21,7 @@ export default [
     techno2: 'Test via : Mocha + Chai, Déploiement via Heroku + Surge',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Directeur de restaurant',
     date: 'Juillet 2015 - Avril 2020',
     content: 'McDonald’s (Poissy - Yvelines)',
@@ -22,7 +32,7 @@ export default [
     techno2: 'Relation clientèle / fournisseurs',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Manager / Directeur-adjoint',
     date: 'Novembre 2005 - Juin 2015',
     content: 'McDonald’s (Saint-Germain-en-laye - Yvelines)',
