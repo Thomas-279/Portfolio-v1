@@ -1,6 +1,7 @@
 // == Import npm
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 // == Import
 import { ImArrowUp } from 'react-icons/im';
@@ -50,6 +51,10 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+      <MessengerCustomerChat
+          pageId="106863978379050"
+          appId="1753371008384617"
+      />
       <div className="button-backtop">
         <ImArrowUp
           className="top-button"
