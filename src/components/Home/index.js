@@ -36,12 +36,11 @@ const Home = () => {
               j'ai pu acquérir de solides compétences en gestion d'entreprise,
               en organisation et en management d'équipe.
             </p>
-            <p>Pour nouveau challenge, j'ai fait le choix d'un virage à 180°
-              dans le domaine du développement web et mobile au cours de l'année 2020.
+            <p>Depuis 2020, ma passion pour le développement web est au coeur de ma carrière professionnelle. 
+            Entre formations et veille quotidienne, je reste sensible et curieux de toute nouveauté liée au web.
             </p>
             <div className="home__part2-link">
               <Link
-                // to={{ pathname: 'https://drive.google.com/file/d/1adF0SBN7MUaLqs7w1WHidkNAyq2pFFMJ/view' }}
                 to={Resume}
                 target="_blank"
               >
