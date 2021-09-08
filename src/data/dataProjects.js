@@ -3,8 +3,16 @@ import converter from 'src/assets/images/img-projects/converter.png';
 import search from 'src/assets/images/img-projects/search.png';
 import yabonprono from 'src/assets/images/img-projects/yabonprono.png';
 import immobilier from 'src/assets/images/img-projects/immobilier.png';
+import meteoWidget from 'src/assets/images/img-projects/meteoWidget.png';
 
 export default [
+  {
+    id: 6,
+    title: 'Meteo Widget',
+    content: 'React-Native, OpenWeatherMap Api',
+    img: `${meteoWidget}`,
+    slug: 'https://github.com/Thomas-279/meteo-reactnative/settings',
+  },
   {
     id: 5,
     title: 'Vitrine agent immobilier',
