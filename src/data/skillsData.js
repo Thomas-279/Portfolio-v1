@@ -1,6 +1,17 @@
 export default [
   {
     id: 1,
+    title: 'Développeur Front-end web / Mobile ( stage )',
+    date: 'Septembre 2021 - Décembre 2021',
+    content: 'DEGETEL Lab',
+    object: 'Contribution au sein de 2 applications mobiles + 2 webapp',
+    team: 'Equipe de 3 développeurs + 1 Product Manager',
+    tasks: 'Ajout de fonctionnalités, maintenance et optimisation.',
+    techno: 'React-Native / ReactJs - Typescript - Firebase - Axios / Postman',
+    techno2: 'Déploiement via AppleStore + Google PlayStore, Docker',
+  },
+  {
+    id: 2,
     title: 'Développeur Web',
     date: 'Juin 2021 - Juillet 2021',
     content: 'Indépendant',
@@ -10,7 +21,7 @@ export default [
     techno2: 'Front: ReactJs + ReduxToolkit + TailwindUi',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Développeur front-end',
     date: 'Février 2021 - Mars 2021',
     content: 'O’clock - Projet de fin de formation',
@@ -21,7 +32,7 @@ export default [
     techno2: 'Test via : Mocha + Chai, Déploiement via Heroku + Surge',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Directeur de restaurant',
     date: 'Juillet 2015 - Avril 2020',
     content: 'McDonald’s (Poissy - Yvelines)',
@@ -32,7 +43,7 @@ export default [
     techno2: 'Relation clientèle / fournisseurs',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Manager / Directeur-adjoint',
     date: 'Novembre 2005 - Juin 2015',
     content: 'McDonald’s (Saint-Germain-en-laye - Yvelines)',

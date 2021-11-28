@@ -1,10 +1,11 @@
+/* eslint-disable max-len */
 // == Import npm
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // == Import
 import './style.scss';
-import profilePicture from 'src/assets/cv/small.jpg';
+import profilePicture from 'src/assets/cv/small.jpeg';
 import Resume from 'src/assets/cv/ThomasGARRAUT.pdf';
 
 // == Composant
@@ -36,8 +37,7 @@ const Home = () => {
               j'ai pu acquérir de solides compétences en gestion d'entreprise,
               en organisation et en management d'équipe.
             </p>
-            <p>Depuis 2020, ma passion pour le développement web est au coeur de ma carrière professionnelle. 
-            Entre formations et veille quotidienne, je reste sensible et curieux de toute nouveauté liée au web.
+            <p>Depuis 2020, ma passion pour le développement web est au coeur de ma carrière professionnelle. Entre formations et veille quotidienne, je reste sensible et curieux de toute nouveauté liée au web.
             </p>
             <div className="home__part2-link">
               <Link
