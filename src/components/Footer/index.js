@@ -1,7 +1,6 @@
 // == Import npm
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 // == Import
 import { ImArrowUp } from 'react-icons/im';
@@ -26,8 +25,6 @@ const Footer = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
     });
   };
   window.addEventListener('scroll', toggleVisible);
@@ -51,10 +48,6 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <MessengerCustomerChat
-          pageId="106863978379050"
-          appId="1753371008384617"
-      />
       <div className="button-backtop">
         <ImArrowUp
           className="top-button"
