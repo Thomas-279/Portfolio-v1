@@ -1,6 +1,6 @@
 // == Import npm
 import React, { useEffect } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 // == Import
 import Header from 'src/components/Header';
@@ -21,13 +21,12 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      {/* Suivant les urls */}
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/skills" component={Skills} />
-        <Route exact path="/projects" component={Projects} />
-        <Route path="*" component={Error} />
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/skills" element={<Skills />} />
+        <Route exact path="/projects" element={<Projects />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
       <Footer />
     </div>
   );

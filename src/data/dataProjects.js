@@ -7,7 +7,6 @@ import meteoWidget from 'src/assets/images/img-projects/meteoWidget.png';
 import jobAppFollow from 'src/assets/images/img-projects/jobAppFollow.png';
 import kryptoProject from 'src/assets/images/img-projects/kryptoProject.png';
 
-
 export default [
   {
     id: 8,
