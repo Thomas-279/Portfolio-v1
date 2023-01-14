@@ -27,7 +27,7 @@ const Skills = () => {
               <p className="skills__team">{data.team}</p>
               <p className="skills__tasks">{data.tasks}</p>
               <p className="skills__techno">{data.techno}</p>
-              <p className="skills__techno2">{data.techno2}</p>
+              <p className="skills__techno2">{data?.techno2}</p>
             </div>
           ))}
         </div>
